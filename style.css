@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    width: 200px;
+  }
+  
+  header a {
+    color: black;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor:pointer;
+    opacity: 0.8;
+    padding: 0 10px;
+  }
+  
+  a:hover {
+    opacity: 1;
+  }
+  
+  a:visited, a:hover, a:active {
+    color: inherit;
+  }
+  
+  nav, ul {
+    list-style: none;
+  }
+
+  .hero {
+    background-image: url(../public/IMAGENS/foto11.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-style: normal;
+  }
+  
+  .hero h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-style: normal;
+
+  }
+  
+  .hero button{
+  background-color:seagreen;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  }
+  .saiba-mais {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .saiba-mais h3{
+    font-size: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    color:black;
+  }
+  .saiba-mais p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color:black;
+  }
+
+  .saiba-mais hr {
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: black;
+  }
+  .saiba-mais .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .saiba-mais .grid li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .saiba-mais .grid li.small {
+    flex-basis: 40%;
+  }
+  
+  .saiba-mais .grid li.large {
+    flex-basis: 60%;
+  }
+  .textinho {
+    background-color:cornflowerblue;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .textinho h3 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+  }
+  
+  .textinho p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+  }
+  
+  .textinho hr {
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: white;
+  }
+  .textinho .grid {
+    width: 100%;
+    display: flex;
+  }
+  
+  .textinho .grid li {
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  .textinho .grid li i {
+    color:seagreen;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .textinho .grid li h4 {
+    font-size: 25px;
+    color:seagreen;
+    margin-bottom: 30px;
+  }
+  .textinho .grid li button {
+    background-color:seagreen;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    }
+
+  .assinar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+  }
+  
+  .assinar h3 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    color:black;
+  }
+  
+  .assinar p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color:black;
+  }
+  
+  .assinar input {
+    padding: 15px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+  }
+  
+  .assinar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .assinar button {
+    padding: 15px;
+    background-color:cornflowerblue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:cornflowerblue;
+    padding: 50px 0;
+  }
+  
+  footer ul {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  footer ul li {
+    margin-right: 10px;
+  }
+  
+  footer ul li:last-child {
+    margin-right: 0;
+  }
+  
+  footer ul li i {
+    color:black;
+    font-size: 25px;
+  }
+  
+  footer p {
+    color:black;
+    text-align: center;
+  }
+  
+  footer ul li:nth-child(1) {
+    order: 4;
+  }
+  
+  footer ul li:nth-child(2) {
+    order: 3;
+  }
+  
+  footer ul li:nth-child(3) {
+    order: 2;
+  }
+  
+  footer ul li:nth-child(4) {
+    order: 1
+  }
+  
+  @media screen and (max-width: 375px){
+    header nav {
+      display: none;
+    }
+  
+    header {
+      justify-content: center;
+    }
+  
+    .hero h1 {
+      font-size: 30px;
+    }
+  
+    .hero h3 {
+      font-size: 15px;
+    }
+  
+    .saiba-mais{
+      padding: 100px 10px;
+    }
+  
+    .saiba-mais .grid li {
+      padding: 10px;
+    }
+  
+    .saiba-mais .grid li.small {
+      flex-basis: 100%;
+    }
+    
+    .saiba-mais .grid li.large {
+      flex-basis: 100%;
+    }
+  
+    .features .grid {
+      flex-direction: column;
+    }
+  
+    .assinar button {
+      margin-top: 10px;
+    }
+  
+    footer ul li i {
+      font-size: 40px;
+    }
+  }
